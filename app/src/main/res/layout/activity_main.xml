@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools" android:layout_height="match_parent"
+              android:layout_width="match_parent"
+              android:orientation="vertical"
+
+
+>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/red"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/tvResult"
+    />
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bn_number"
+                android:layout_weight="1"
+                android:text="@string/number1"
+                android:background="@color/red"
+                android:layout_margin="10dp"
+                tools:ignore="ButtonStyle,DuplicateIds"
+                android:textSize="20sp"
+                android:onClick="calculate"
+        />
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bn_number"
+                android:layout_weight="1"
+                android:text="@string/number2"
+                android:background="@color/red"
+                android:layout_margin="10dp" tools:ignore="ButtonStyle,DuplicateIds"
+                android:textSize="20sp"
+                android:onClick="calculate"
+        />
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bn_number"
+                android:layout_weight="1"
+                android:text="@string/number3"
+                android:background="@color/red"
+                android:layout_margin="10dp" tools:ignore="ButtonStyle,DuplicateIds"
+                android:textSize="20sp"
+                android:onClick="calculate"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bn_plus"
+                android:layout_weight="1"
+                android:text="@string/plus"
+                android:background="@color/red"
+                android:layout_margin="10dp" tools:ignore="ButtonStyle"
+                android:textSize="20sp"
+                android:onClick="calculate"/>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bn_number"
+                android:layout_weight="1"
+                android:text="@string/number4"
+                android:background="@color/red"
+                android:layout_margin="10dp" tools:ignore="ButtonStyle,DuplicateIds"
+                android:textSize="20sp"
+                android:onClick="calculate"
+        />
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bn_number"
+                android:layout_weight="1"
+                android:text="@string/number5"
+                android:background="@color/red"
+                android:layout_margin="10dp" tools:ignore="ButtonStyle,DuplicateIds"
+                android:textSize="20sp"
+                android:onClick="calculate"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bn_number"
+                android:layout_weight="1"
+                android:text="@string/number6"
+                android:background="@color/red"
+                android:layout_margin="10dp" tools:ignore="ButtonStyle,DuplicateIds"
+                android:textSize="20sp"
+                android:onClick="calculate"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bn_minus"
+                android:layout_weight="1"
+                android:text="@string/minus"
+                android:background="@color/red"
+                android:layout_margin="10dp" tools:ignore="ButtonStyle"
+                android:textSize="25sp"
+                android:onClick="calculate"/>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bn_number"
+                android:layout_weight="1"
+                android:text="@string/number7"
+                android:background="@color/red"
+                android:layout_margin="10dp" tools:ignore="ButtonStyle,DuplicateIds"
+                android:textSize="20sp"
+                android:onClick="calculate"/>
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bn_number"
+                android:layout_weight="1"
+                android:text="@string/number8"
+                android:background="@color/red"
+                android:layout_margin="10dp" tools:ignore="ButtonStyle,DuplicateIds"
+                android:textSize="20sp"
+                android:onClick="calculate"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bn_number"
+                android:layout_weight="1"
+                android:text="@string/number9"
+                android:background="@color/red"
+                android:layout_margin="10dp" tools:ignore="ButtonStyle,DuplicateIds"
+                android:textSize="20sp"
+                android:onClick="calculate"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bn_times"
+                android:layout_weight="1"
+                android:text="@string/times"
+                android:background="@color/red"
+                android:layout_margin="10dp" tools:ignore="ButtonStyle"
+                android:textSize="20sp"
+                android:onClick="calculate"/>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+        <TextView
+                android:layout_width="90sp"
+                android:layout_height="10sp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                tools:ignore="SmallSp"/>
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bn_number"
+                android:layout_weight="1"
+                android:text="@string/number0"
+                android:background="@color/red"
+                android:layout_margin="10dp" tools:ignore="ButtonStyle,DuplicateIds"
+                android:textSize="20sp"
+                android:onClick="calculate"/>
+        <TextView
+                android:layout_width="90sp"
+                android:layout_height="10sp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                tools:ignore="SmallSp"/>
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bn_divide"
+                android:layout_weight="1"
+                android:text="@string/divide"
+                android:background="@color/red"
+                android:layout_margin="10dp" tools:ignore="ButtonStyle"
+                android:textSize="20sp"
+                android:onClick="calculate"/>
+    </LinearLayout>
+
+
+</LinearLayout>
