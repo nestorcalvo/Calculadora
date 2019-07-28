@@ -10,7 +10,7 @@
     <TextView
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:background="@color/red"/>
+            android:background="@color/darkgray"/>
     <TextView
             android:layout_width="match_parent"
             android:layout_height="108dp"
@@ -34,7 +34,7 @@
                 android:id="@+id/bn_delete"
 
                 android:text="@string/AC"
-                android:background="@color/red"
+                android:background="@color/darkgray"
                 android:layout_margin="10dp" tools:ignore="ButtonStyle"
                 android:textSize="20sp"
                 android:onClick="calculate"/>
@@ -50,7 +50,7 @@
                 android:id="@+id/bn_number"
                 android:layout_weight="1"
                 android:text="@string/number1"
-                android:background="@color/red"
+                android:background="@color/darkgray"
                 android:layout_margin="10dp"
                 tools:ignore="ButtonStyle,DuplicateIds"
                 android:textSize="20sp"
@@ -63,7 +63,7 @@
                 android:id="@+id/bn_number"
                 android:layout_weight="1"
                 android:text="@string/number2"
-                android:background="@color/red"
+                android:background="@color/darkgray"
                 android:layout_margin="10dp" tools:ignore="ButtonStyle,DuplicateIds"
                 android:textSize="20sp"
                 android:onClick="calculate"
@@ -74,7 +74,7 @@
                 android:id="@+id/bn_number"
                 android:layout_weight="1"
                 android:text="@string/number3"
-                android:background="@color/red"
+                android:background="@color/darkgray"
                 android:layout_margin="10dp" tools:ignore="ButtonStyle,DuplicateIds"
                 android:textSize="20sp"
                 android:onClick="calculate"/>
@@ -84,7 +84,7 @@
                 android:id="@+id/bn_plus"
                 android:layout_weight="1"
                 android:text="@string/plus"
-                android:background="@color/red"
+                android:background="@color/darkgray"
                 android:layout_margin="10dp" tools:ignore="ButtonStyle"
                 android:textSize="20sp"
                 android:onClick="calculate"/>
@@ -100,7 +100,7 @@
                 android:id="@+id/bn_number"
                 android:layout_weight="1"
                 android:text="@string/number4"
-                android:background="@color/red"
+                android:background="@color/darkgray"
                 android:layout_margin="10dp" tools:ignore="ButtonStyle,DuplicateIds"
                 android:textSize="20sp"
                 android:onClick="calculate"
@@ -112,7 +112,7 @@
                 android:id="@+id/bn_number"
                 android:layout_weight="1"
                 android:text="@string/number5"
-                android:background="@color/red"
+                android:background="@color/darkgray"
                 android:layout_margin="10dp" tools:ignore="ButtonStyle,DuplicateIds"
                 android:textSize="20sp"
                 android:onClick="calculate"/>
@@ -122,7 +122,7 @@
                 android:id="@+id/bn_number"
                 android:layout_weight="1"
                 android:text="@string/number6"
-                android:background="@color/red"
+                android:background="@color/darkgray"
                 android:layout_margin="10dp" tools:ignore="ButtonStyle,DuplicateIds"
                 android:textSize="20sp"
                 android:onClick="calculate"/>
@@ -132,7 +132,7 @@
                 android:id="@+id/bn_minus"
                 android:layout_weight="1"
                 android:text="@string/minus"
-                android:background="@color/red"
+                android:background="@color/darkgray"
                 android:layout_margin="10dp" tools:ignore="ButtonStyle"
                 android:textSize="25sp"
                 android:onClick="calculate"/>
@@ -148,7 +148,7 @@
                 android:id="@+id/bn_number"
                 android:layout_weight="1"
                 android:text="@string/number7"
-                android:background="@color/red"
+                android:background="@color/darkgray"
                 android:layout_margin="10dp" tools:ignore="ButtonStyle,DuplicateIds"
                 android:textSize="20sp"
                 android:onClick="calculate"/>
@@ -159,7 +159,7 @@
                 android:id="@+id/bn_number"
                 android:layout_weight="1"
                 android:text="@string/number8"
-                android:background="@color/red"
+                android:background="@color/darkgray"
                 android:layout_margin="10dp" tools:ignore="ButtonStyle,DuplicateIds"
                 android:textSize="20sp"
                 android:onClick="calculate"/>
@@ -169,7 +169,7 @@
                 android:id="@+id/bn_number"
                 android:layout_weight="1"
                 android:text="@string/number9"
-                android:background="@color/red"
+                android:background="@color/darkgray"
                 android:layout_margin="10dp" tools:ignore="ButtonStyle,DuplicateIds"
                 android:textSize="20sp"
                 android:onClick="calculate"/>
@@ -179,7 +179,7 @@
                 android:id="@+id/bn_times"
                 android:layout_weight="1"
                 android:text="@string/times"
-                android:background="@color/red"
+                android:background="@color/darkgray"
                 android:layout_margin="10dp" tools:ignore="ButtonStyle"
                 android:textSize="20sp"
                 android:onClick="calculate"/>
@@ -195,7 +195,7 @@
                 android:id="@+id/bn_dot"
                 android:layout_weight="1"
                 android:text="@string/dot"
-                android:background="@color/red"
+                android:background="@color/darkgray"
                 android:layout_margin="10dp" tools:ignore="ButtonStyle,DuplicateIds"
                 android:textSize="20sp"
                 android:onClick="calculate"/>
@@ -206,7 +206,7 @@
                 android:id="@+id/bn_number"
                 android:layout_weight="1"
                 android:text="@string/number0"
-                android:background="@color/red"
+                android:background="@color/darkgray"
                 android:layout_margin="10dp" tools:ignore="ButtonStyle,DuplicateIds"
                 android:textSize="20sp"
                 android:onClick="calculate"/>
@@ -216,7 +216,7 @@
                 android:id="@+id/bn_equal"
                 android:layout_weight="1"
                 android:text="@string/equal"
-                android:background="@color/red"
+                android:background="@color/darkgray"
                 android:layout_margin="10dp" tools:ignore="ButtonStyle,DuplicateIds"
                 android:textSize="20sp"
                 android:onClick="calculate"/>
@@ -227,7 +227,7 @@
                 android:id="@+id/bn_divide"
                 android:layout_weight="1"
                 android:text="@string/divide"
-                android:background="@color/red"
+                android:background="@color/darkgray"
                 android:layout_margin="10dp" tools:ignore="ButtonStyle"
                 android:textSize="20sp"
                 android:onClick="calculate"/>
