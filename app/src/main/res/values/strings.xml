@@ -16,4 +16,5 @@
     <string name="divide">/</string>
     <string name="dot">.</string>
     <string name="equal">=</string>
+    <string name="AC">DEL</string>
 </resources>

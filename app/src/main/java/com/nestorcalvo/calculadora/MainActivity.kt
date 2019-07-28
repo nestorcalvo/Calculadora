@@ -1,6 +1,7 @@
 package com.nestorcalvo.calculadora
 
 
+import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -22,6 +23,7 @@ class MainActivity : AppCompatActivity() {
     }
 
 
+    @SuppressLint("SetTextI18n")
     fun calculate(view: View){
         if (view is Button){
             when(view.id){
@@ -93,12 +95,28 @@ class MainActivity : AppCompatActivity() {
                         "+" -> tvResult.text =(operator1.toDouble() + operator2.toDouble()).toString()
                         "-" -> tvResult.text =(operator1.toDouble() - operator2.toDouble()).toString()
                         "X" -> tvResult.text =(operator1.toDouble() * operator2.toDouble()).toString()
-                        "/" -> tvResult.text =(operator1.toDouble() / operator2.toDouble()).toString()
+                        "/" -> {
+                            if (operator2.toDouble() == 0.0){
+                                tvResult.text = "NaN"
+                            }
+                            else{
+                                tvResult.text =(operator1.toDouble() / operator2.toDouble()).toString()
+                            }
+
+                        }
                     }
                     operation = ""
                     operator1 = ""
                     operator2 = ""
                     result_flag = 1
+                }
+                R.id.bn_delete->{
+                    tvResult.text = ""
+                    operator2 = ""
+                    operation = ""
+                    operator1 = ""
+                    flag = 0
+                    result_flag = 0
                 }
 
 
