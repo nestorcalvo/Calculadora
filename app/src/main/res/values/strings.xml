@@ -14,4 +14,6 @@
     <string name="times">x</string>
     <string name="number0">0</string>
     <string name="divide">/</string>
+    <string name="dot">.</string>
+    <string name="equal">=</string>
 </resources>

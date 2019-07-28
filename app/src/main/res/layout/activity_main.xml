@@ -15,7 +15,9 @@
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:id="@+id/tvResult"
-    />
+            android:gravity="end"
+            android:textSize="50sp"
+            />
     <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -166,12 +168,16 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:padding="10dp">
-        <TextView
-                android:layout_width="90sp"
-                android:layout_height="10sp"
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bn_dot"
                 android:layout_weight="1"
-                android:layout_margin="10dp"
-                tools:ignore="SmallSp"/>
+                android:text="@string/dot"
+                android:background="@color/red"
+                android:layout_margin="10dp" tools:ignore="ButtonStyle,DuplicateIds"
+                android:textSize="20sp"
+                android:onClick="calculate"/>
 
         <Button
                 android:layout_width="wrap_content"
@@ -183,12 +189,16 @@
                 android:layout_margin="10dp" tools:ignore="ButtonStyle,DuplicateIds"
                 android:textSize="20sp"
                 android:onClick="calculate"/>
-        <TextView
-                android:layout_width="90sp"
-                android:layout_height="10sp"
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bn_equal"
                 android:layout_weight="1"
-                android:layout_margin="10dp"
-                tools:ignore="SmallSp"/>
+                android:text="@string/equal"
+                android:background="@color/red"
+                android:layout_margin="10dp" tools:ignore="ButtonStyle,DuplicateIds"
+                android:textSize="20sp"
+                android:onClick="calculate"/>
 
         <Button
                 android:layout_width="wrap_content"
