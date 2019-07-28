@@ -118,8 +118,6 @@ class MainActivity : AppCompatActivity() {
                     flag = 0
                     result_flag = 0
                 }
-
-
             }
         }
     }
